@@ -1,0 +1,49 @@
+:root {
+	font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 8px;
+	box-sizing: border-box;
+	background-color: var(--md-sys-color-background);
+}
+
+section {
+	background-color: var(--md-sys-color-surface);
+	display: flex;
+	flex-direction: column;
+	height: inherit;
+	width: inherit;
+	border-radius: 24px;
+}
+
+#name-container {
+	padding: 56px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 20%;
+	background:
+		linear-gradient(0deg, #000000bb, #000000bb),
+		url("/assets/background.jpg") no-repeat center;
+	background-size: cover;
+	border-radius: 24px;
+}
+
+#name {
+	font-size: var(--md-sys-typescale-display-large-font-size);
+	color: var(--md-sys-color-on-background);
+}
+
+#placeholder {
+	color: var(--md-sys-color-on-surface);
+	font-family: var(--md-sys-typescale-body-medium-font-family-name);
+	margin: auto;
+}
