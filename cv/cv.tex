@@ -1,0 +1,198 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cies Resume/CV
+% LaTeX Template
+% Version 1.1 (20/7/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Cies Breijs (cies@kde.nl)
+% https://github.com/cies/resume with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Modified by Raphaël Weis.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper]{article} % Font size (10-12pt) and paper size (a4paper, letterpaper, legalpaper, etc)
+
+\input{structure} % Include structure.tex which contains packages and document layout definitions
+
+\hyphenation{Some-long-word} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\maintitle{Raphaël WEIS}{Étudiant ingénieur informatique}  % Your name and date of birth or subtitle
+
+\noindent\href{mailto:raphael.weis.dev@gmail.com}{raphael.weis.dev@gmail.com}\bull % Your email address
++33783129006\bull
+raphaelweis \textit{(GitHub)}\bull % Your phone number(s) and Skype username
+\href{https://raphaelweis.com}{raphaelweis.com}\\ % Your URL
+24B avenue Anatole France, 10000 Troyes, France % Your address
+
+\spacedhrule{0.9em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY SECTION
+%----------------------------------------------------------------------------------------
+
+% Commenting out the summary section because I have nothing to put in it currently.
+
+% \roottitle{Summary} % Root section title
+%
+% \vspace{-1.3em} % Reduce whitespace after the Summary heading and the two-column content
+%
+% \begin{multicols}{2}  % Start a two-column layout
+% 	\noindent \textit{A summary of your interests, achievements, history, topic of study or any other short summary of your professional life.}\\
+% Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis scelerisque vestibulum. Sed ut sapien et dui mollis condimentum. Phasellus enim lectus, dignissim vitae velit sit amet, porttitor tincidunt lectus. Vivamus adipiscing volutpat lacinia. Sed dui ipsum, iaculis id facilisis sed, dapibus quis lacus. Quisque blandit hendrerit malesuada. Nunc sollicitudin nisl nunc, vitae luctus leo tincidunt vel.
+%
+% Pellentesque bibendum convallis adipiscing. Suspendisse facilisis id massa a lacinia. Nullam odio nibh, placerat at fermentum in, tincidunt eu ipsum. Nullam adipiscing lacus id dui suscipit commodo. Vestibulum iaculis leo imperdiet, porta lorem eu, tempus tortor. Donec interdum risus ullamcorper, vestibulum nulla ut, tincidunt ante. Duis adipiscing auctor nisi, quis tempor tortor ornare aliquet. Aenean at tempor leo. Nam eleifend venenatis elit id aliquet. Mauris quis lacinia dolor, a posuere tellus. Suspendisse nec augue pretium, condimentum risus vitae, dignissim tellus. Proin gravida ante eget massa lacinia consequat. Integer pharetra vel ligula sed vulputate. Integer eget erat quam. Proin adipiscing lorem ac purus adipiscing, non ullamcorper nisi porttitor.
+% \end{multicols}
+%
+% \spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Expérience professionnelle} % Top level section
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\href{http://www.orange.fr}{Orange}}
+{\textsc{Orange Innovation Caen}} {
+
+\headedsubsection % Job title entry for the current employer
+{Stagiaire développeur}
+{Juillet 2023 -- Décembre 2024}
+{\bodytext{Stagiaire développeur chez Orange Innovation, sur le site de Caen, intégré à un projet d'exploration sur des moyens novateurs de paiement. J'ai participé au développement du serveur (Go) et de l'interface (Flutter) d'une application permettant à des clients d'effectuer des virements instantanés en scannant un QR Code affiché par le marchand. Faisant usage de la nouvelle Directive Européenne sur les Services de Paiement (DSP2), ce projet fait partie d'un mouvemenent mené par Orange pour s'intégrer dans les démarches innovatives entourant les nouvelles dynamiques de paiement en Europe.}}
+
+}
+
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\href{https://merca.team}{Mercateam}}
+{\textsc{Mission Junior Entreprise UTT - télétravail}} {
+
+\headedsubsection % Job title entry for the current employer
+{Aide à l'intégration de données client sur le logiciel Mercateam}
+{Février 2023}
+{\bodytext{Traitement et téléchargement de données client en vue de première utilisation du logiciel mercateam.}}
+
+}
+
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\href{https://www.renault-trucks.fr}{Renault Trucks}}
+{\textsc{Centre de distribution de Lyon}} {
+
+\headedsubsection % Job title entry for the current employer
+{Stagiaire méthodes logistique}
+{Avril 2022 -- Juillet 2022}
+{\bodytext{\begin{itemize}
+	\item Etude ergonomique d'un poste de prélèvement de plaquettes de freins : Analyse statistique du problème, cotation ergonomique du poste, étude et proposition de solutions, Collaboration étroite avec les équipes d'opérateurs et de management
+	\item Proposition d'une application de visualisation du stock sous Excel, développée avec VBA.
+\end{itemize}}}
+}
+
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\href{https://www.renault-trucks.fr}{Empack logistique}}
+{\textsc{Centre logistique de Saint-Priest}} {
+
+\headedsubsection % Job title entry for the current employer
+{Opérateur conditionnement}
+{Juillet 2021 -- Août 2021}
+{\bodytext{Conditionnement de pièces de rechange de véhicules industriels avant mise en stock}}
+}
+
+%------------------------------------------------
+
+\spacedhrule{-0.2em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Éducation} % Top level section
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{Université de technologie de Troyes (UTT)}
+{\textsc{Troyes, France}} {
+
+\headedsubsection % Job title entry for the current employer
+{Diplôme d'ingénieur -- Informatique et systèmes d'information}
+{2022 -- En cours}
+{\bodytext{Conception de systèmes d'information, programmation procédurale et orientée objet, programmation de systèmes embarqués, sécurité des systèmes d'information, gestion de projet logiciels de manière agile, bases de l'intelligence artificielle, conception d'interfaces homme-machine, architectures cloud et virtualisation.}}
+}
+
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{Université Lyon 1 -- IUT Gratte-Ciel}
+{\textsc{Villeurbanne, France}} {
+
+\headedsubsection % Job title entry for the current employer
+{Diplôme Universitaire de Technologie (DUT) -- Génie Mécanique et Productique}
+{2020 -- 2022} {\bodytext{Conception mécanique, dimensionnement des structures, optimisation et gestion de la production, conception et fabrication assistée par ordinateur (CAO, FAO), automatique industrielle, méthodes et logistique, procédés de fabrication industriels, électronique.}}
+}
+
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{Lycée La Martinière Monplaisir}
+{\textsc{Lyon, France}} {
+
+\headedsubsection % Job title entry for the current employer
+{Baccalauréat -- Bac S Sciences de l'ingénieur, spécialité physique-chimie}
+{2020} {}
+}
+
+\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Compétences} % Top level section
+
+\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+{Compétences techniques :}
+{Conception et implémentation de logiciels, au sein d'une équipe de développeurs. Je maîtrise correctement les concepts de programmation procédurale et orientée objet. J'ai travaillé de manière significative avec C, Java, Go et JavaScript, et suis particulièrement proficient avec Dart. J'ai travaillé avec les frameworks Flutter et React (Frontend) et Gin (Backend). Je possède des compétences basiques en administration de systèmes Linux, et suis familier avec Docker, OpenShift et les GNU CoreUtils. Je maîtrise le contrôle de version avec Git, et ait travaillé de manière extensive avec GitLab et GitHub. }
+
+% {Software design and implementation, with(in) a team. I love Ruby/Python/Java/C++ and flirt regularly with Haskell. Solid knowledge of web technologies:\ \acr{HTML+CSS}, \acr{XML}, \acr{RDF}, \acr{REST}, \acr{SOAP} and JavaScript (mainly jQuery). Linux administration skills:\ bash, Apache, My\acr{SQL}, Postgres\acr{SQL}, virtualization/cloud (Open\acr{VZ}, \acr{VM}ware, \acr{KVM}, Xen and \acr{EC}2), datacenter automation (Puppet and Chef), continuous integration (Hudson/Jenkins).}
+
+%------------------------------------------------
+
+\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+{Languages Naturels:}
+{Français \textit{(Langue natale)}, Anglais \textit{(Proficience professionnelle complète -- C1)}}
+
+%------------------------------------------------
+
+\spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Centre d'Intérêts} % Top level section
+% \inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+{Linux et développement open-source. Speedcubing, ou résolution compétitive de Puzzles Rubik's Cube (Record personnel: 6.43 secondes). Basketball, Formule 1, course à pied et sport en général.}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
