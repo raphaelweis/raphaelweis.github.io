@@ -1,0 +1,68 @@
+:root {
+  font:
+    1rem "Arial",
+    sans-serif;
+  line-height: calc(1.5 * 1rem);
+  padding: 0 1rem;
+}
+
+body {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 80ch;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: calc(1.5 * 3rem);
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: calc(1.5 * 2rem);
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 64px;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: calc(1.5 * 2rem);
+  margin: 32px 0;
+}
+
+p,
+ol {
+  margin-top: 0;
+  margin-bottom: calc(2 * 1rem);
+}
+
+a {
+  color: #135e1b;
+}
+
+.footer {
+  align-self: center;
+}
+
+#foot-hyphen {
+  margin-top: calc(2 * 1rem);
+}
+
+#foot-pic {
+  margin: calc(2 * 1rem) 0;
+  border-radius: 32px;
+  max-width: 100%;
+  height: auto;
+}
+
+#foot-source {
+  margin-top: calc(2 * 1rem);
+  margin-bottom: calc(4 * 1rem);
+}
