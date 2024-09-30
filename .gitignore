@@ -1,3 +1,7 @@
+.idea/
+.vscode/
+
+out/
 cv/*.aux
 cv/*.fdb_latexmk
 cv/*.fls
