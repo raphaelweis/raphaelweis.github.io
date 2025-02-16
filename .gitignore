@@ -8,3 +8,5 @@ cv/*.fls
 cv/*.log
 cv/*.out
 cv/*.synctex.gz
+
+public/

@@ -1,0 +1,12 @@
+baseURL = 'https://raphaelweis.com'
+languageCode = 'en-us'
+title = 'Raphaël Weis'
+theme="hugo-md3-theme"
+
+[params]
+name = "Raphaël Weis"
+email = "raphael.weis.g@gmail.com"
+tagline = "Raphaël Weis"
+profilePicturePath = "the_solo_traveller.webp"
+linkedin = "https://example.com"
+github = "https://example.com"
