@@ -1,12 +1,5 @@
 .idea/
 .vscode/
 
-out/
-cv/*.aux
-cv/*.fdb_latexmk
-cv/*.fls
-cv/*.log
-cv/*.out
-cv/*.synctex.gz
-
 public/
+.hugo_build.lock

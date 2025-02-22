@@ -6,7 +6,7 @@ theme="hugo-md3-theme"
 [params]
 name = "Raphaël Weis"
 email = "raphael.weis.g@gmail.com"
-tagline = "Raphaël Weis"
+tagline = "French software engineering student, currently looking for an internship."
 profilePicturePath = "the_solo_traveller.webp"
 linkedin = "https://linkedin.com/in/raphaelweis"
 github = "https://github.com/raphaelweis"
