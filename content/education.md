@@ -47,6 +47,6 @@ Software engineering diploma (currently ongoing). Courses I took include:
 
 2 year technical degree in mechanical engineering and automation.
 
-## 2017-2020: [Lycée Lamartinière Monplaisir](https://martiniere-monplaisir.ent.auvergnerhonealpes.fr/)
+## 2017-2020: [Lycée La martinière Monplaisir](https://martiniere-monplaisir.ent.auvergnerhonealpes.fr/)
 
 Math and Physics High-School Diploma.

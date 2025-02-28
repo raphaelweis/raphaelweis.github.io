@@ -11,9 +11,9 @@ If I had to reduce my work up until this point to only 3 significant projects, I
 
 ## 1 personal project: Thinker
 
-Thinker is an application I co-founded with 2 software engineering students from [Epita](https://www.epita.fr/en/). The goal is to provide the user with quizzes on various subjects, that he can use to learn new things, improve his general knowledge or practice concepts he already knows. Quizzes are served to the user in an infinite vertical scrolling list, much like videos on [Tiktok](https://www.tiktok.com) or [Instagram Reels](https://www.instagram.com). Quizzes from the user's feed come from personalized recommandations, based on the user's following and quiz viewing habits. Thinker also aims to be a social network, where users can search and follow each other's profiles
+Thinker is an application I co-founded with 2 software engineering students from [Epita](https://www.epita.fr/en/). The goal is to provide the user with quizzes on various subjects, that he can use to learn new things, improve his general knowledge or practice concepts he already knows. Quizzes are served to the user in an infinite vertical scrolling list, much like videos on [Tiktok](https://www.tiktok.com) or [Instagram Reels](https://www.instagram.com). Quizzes from the user's feed come from personalized recommandations, based on the user's following and quiz viewing habits. Thinker also aims to be a social network, where users can search and follow each other's profiles.
 
-Thinker is currently in active development, and we are working towards towards releasing a functional v1 in 2025.
+Thinker is currently in active development, and we are working towards releasing a functional v1 in 2025.
 
 ![2 screenshots of the thinker application](/thinker.png)
 
@@ -99,6 +99,6 @@ RCube is an android application I wrote for my android developement class. The a
 
 The application is written in [Kotlin](https://kotlinlang.org) and targets Android SDK versions 35 and up. It uses the [Jetpack Compose framework](https://developer.android.com/compose) and follows the latest [Material 3 guidelines](https://m3.material.io), including [Material You](https://m3.material.io/blog/announcing-material-you). RCube stores it's data locally in the already available [SQLite](https://www.sqlite.org) databases on android devices. The app also follows the android guidelines regarding project structure and local data handling, with the [Room](https://developer.android.com/training/data-storage/room) library.
 
-RCube is fully open-source and you can check the it's source code on [GitHub](https://github.com/raphaelweis/RCube/).
+RCube is fully open-source and you can check it's source code on [GitHub](https://github.com/raphaelweis/RCube/).
 
 ![A screenshot of the timer screen for the RCube app](/rcube.png)
