@@ -7,7 +7,7 @@ title = 'About'
 
 # About me
 
-Hello. My name is Raphaël Weis, and I am a french final-year computer science student at the University of Technology of Troyes. I am currently actively looking for a 6-month internship starting in september 2025 as a fullstack developer. I made this portfolio website in order to showcase some of the projects I've worked on as well as provide a little more details on my software engineering journey. If you think I could be a good fit for your company, don't hesitate to contact me either on [LinkedIn](https://linkedin.com/in/raphaelweis) or via email at [raphael.weis.g@gmail.com](mailto:raphael.weis.g@gmail.com).
+Hello. My name is Raphaël Weis, and I am a french final-year computer science student at the University of Technology of Troyes. I made this portfolio website in order to showcase some of the projects I've worked on as well as provide a little more details on my software engineering journey. If you think I could be a good fit for your company, don't hesitate to contact me either on [LinkedIn](https://linkedin.com/in/raphaelweis) or via email at [raphael.weis.g@gmail.com](mailto:raphael.weis.g@gmail.com).
 
 ## About this website
 
